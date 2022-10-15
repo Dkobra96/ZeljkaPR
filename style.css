@@ -103,12 +103,6 @@ hr{
     width: 380px;
     object-fit: cover;
 }
-.works__h1{
-    margin: 0 auto 120px;
-    text-align: center;
-    max-width: 900px;
-    width: 100%;
-}
 span{
     color: #391E94;
 }
@@ -120,6 +114,12 @@ span{
     max-width: 1110px;
     margin: 150px auto 80px;
     align-items: center;
+}
+.works h1{
+    margin: 0 auto 120px;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
 }
 .works__column{
     flex: 33.33%;
@@ -138,7 +138,7 @@ span{
     color: #391E94;
     font-weight: bold;
 }
-.pink{
+.logos{
     background-color: #ffc6c6;
     height: 250px;
     width: 100%;
@@ -149,17 +149,16 @@ span{
     overflow: hidden;
     margin-bottom: 120px;
 }
-.pink__p{
+.logos p{
     color: gray;
     font-size: 18px;
     margin: 50px 100px 10px;
     max-width: 900px;
-
 }
-.pink__logos{
+.logos__list{
     margin: 0px 100px;
 }
-.pink__logos img{
+.logos__list img{
     padding-right: 100px;
     filter: grayscale(1);
     opacity: 0.3;
@@ -253,6 +252,12 @@ span{
     max-width: 1110px;
     margin: 0 auto 70px;
 }
+.careers h1{
+    margin: 0 auto 120px;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+}
 .careers__column{
     flex: 33.3%;
 }
@@ -268,6 +273,7 @@ span{
 }
 .careers__column--header{
     font-weight: bold;
+    text-transform: uppercase;
 }
 footer{
     background-color: #ffc6c6;
@@ -290,15 +296,12 @@ footer{
     margin-top: 40px;
     opacity: 0.5;
 }
-.footer__h1{
+footer h1{
     margin: 40px auto 20px;
     text-align: center;
     max-width: 900px;
     width: 100%;
 }
-.footer__p{
+footer p{
     color: gray;
 }
-
-
-
